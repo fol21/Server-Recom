@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  webapp:
+    build: 
+      context: ./ServerRecom.Application
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
